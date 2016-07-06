@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA0521AA1D2D3E2A00662651 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0521A91D2D3E2A00662651 /* Operation.m */; };
 		DA0F30CC1D2955F400956D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0F30CB1D2955F400956D62 /* main.m */; };
 		DA0F30CF1D2955F400956D62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0F30CE1D2955F400956D62 /* AppDelegate.m */; };
 		DA0F30D21D2955F400956D62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0F30D11D2955F400956D62 /* ViewController.m */; };
 		DA0F30D51D2955F400956D62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0F30D31D2955F400956D62 /* Main.storyboard */; };
 		DA0F30D71D2955F400956D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0F30D61D2955F400956D62 /* Assets.xcassets */; };
 		DA0F30DA1D2955F400956D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0F30D81D2955F400956D62 /* LaunchScreen.storyboard */; };
-		DA0F30EE1D2C0D1900956D62 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0F30ED1D2C0D1900956D62 /* Operation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA0521A81D2D3E2A00662651 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Operation.h; path = Model/Operation.h; sourceTree = "<group>"; };
+		DA0521A91D2D3E2A00662651 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Operation.m; path = Model/Operation.m; sourceTree = "<group>"; };
 		DA0F30C71D2955F400956D62 /* EasyCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0F30CB1D2955F400956D62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA0F30CD1D2955F400956D62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		DA0F30D61D2955F400956D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA0F30D91D2955F400956D62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA0F30DB1D2955F400956D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA0F30EC1D2C0D1900956D62 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
-		DA0F30ED1D2C0D1900956D62 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 		DA0F30E41D2BBBC400956D62 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				DA0F30EC1D2C0D1900956D62 /* Operation.h */,
-				DA0F30ED1D2C0D1900956D62 /* Operation.m */,
+				DA0521A81D2D3E2A00662651 /* Operation.h */,
+				DA0521A91D2D3E2A00662651 /* Operation.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -163,9 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA0F30D21D2955F400956D62 /* ViewController.m in Sources */,
-				DA0F30EE1D2C0D1900956D62 /* Operation.m in Sources */,
 				DA0F30CF1D2955F400956D62 /* AppDelegate.m in Sources */,
 				DA0F30CC1D2955F400956D62 /* main.m in Sources */,
+				DA0521AA1D2D3E2A00662651 /* Operation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +314,7 @@
 				DA0F30E01D2955F400956D62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
